@@ -1,6 +1,6 @@
 # mime
 
-Comprehensive MIME type mapping API. Includes all 600+ types and 800+ extensions defined by the Apache project, plus additional types submitted by the node.js community.
+Comprehensive MIME type mapping API. Includes all 600+ types and 800+ extensions defined by the Apache project, plus additional types submitted by the node.js community. This fork does not use node-specific path or filesystem API and is therefore browser-compatible.
 
 ## Install
 
@@ -59,8 +59,6 @@ The first entry in the extensions array is returned by `mime.extension()`. E.g.
 
 ### mime.load(filepath)
 
-Load mappings from an Apache ".types" format file
+Load mappings from an Apache ".types" format in the form of a string.
 
     mime.load('./my_project.types');
-
-The .types file format is simple -  See the `types` dir for examples.
