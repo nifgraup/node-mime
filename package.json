@@ -19,7 +19,7 @@
   }],
   "devDependencies": {},
   "keywords": ["util", "mime"],
-  "main": "mime.js",
+  "main": "src/mime.js",
   "name": "mime",
   "repository": {
     "url": "https://github.com/broofa/node-mime",
