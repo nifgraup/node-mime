@@ -4,25 +4,26 @@
     "url": "http://github.com/broofa",
     "email": "robert@broofa.com"
   },
-  "contributors": [
-    {
-      "name": "Benjamin Thomas",
-      "url": "http://github.com/bentomas",
-      "email": "benjamin@benjaminthomas.org"
-    }
-  ],
-  "dependencies": {},
+  "contributors": [{
+    "name": "Benjamin Thomas",
+    "url": "http://github.com/bentomas",
+    "email": "benjamin@benjaminthomas.org"
+  }],
+  "dependencies": {
+    "amdefine": ">=0.0.8"
+  },
   "description": "A comprehensive library for mime-type mapping",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.github.com/broofa/node-mime/master/LICENSE"
-    }
-  ],
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://raw.github.com/broofa/node-mime/master/LICENSE"
+  }],
   "devDependencies": {},
   "keywords": ["util", "mime"],
   "main": "mime.js",
   "name": "mime",
-  "repository": {"url": "https://github.com/broofa/node-mime", "type": "git"},
+  "repository": {
+    "url": "https://github.com/broofa/node-mime",
+    "type": "git"
+  },
   "version": "1.2.12-dev"
 }
